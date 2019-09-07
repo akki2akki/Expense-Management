@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="Add Today Expense"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_below="@id/tv"
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="60dp">
+        <EditText
+            android:id="@+id/editText_text"
+            android:hint="Enter Text"
+            android:drawableStart="@drawable/ic_text"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="150dp"
+            android:inputType="text"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/editText_money"
+            android:hint="Amount"
+            android:layout_toRightOf="@+id/editText_text"
+            android:layout_marginLeft="3dp"
+            android:drawableStart="@drawable/ic_money"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="120dp"
+            android:inputType="number"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/button_add_expense"
+        android:layout_below="@+id/relative_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Add"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+
+</RelativeLayout>

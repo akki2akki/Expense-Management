@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moneybhai.expense_manager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ItemOfflineState"
+        android:allowBackup="true"
+        android:icon="@drawable/money_bhai"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/money_bhai"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.DailyExpenseActivity"
+            android:parentActivityName=".activity.MainActivity"></activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

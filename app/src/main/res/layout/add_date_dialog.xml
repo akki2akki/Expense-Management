@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"></RelativeLayout>
+
+    <TextView
+        android:layout_below="@+id/rl"
+        android:id="@+id/date_dialoge"
+        android:layout_centerHorizontal="true"
+        android:text="04-june-2019"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/note_dialog"
+        android:textSize="18sp"
+        android:layout_below="@id/date_dialoge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_add_dialoge"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Add Date"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "505639996920",
+    "firebase_url": "https://money-bhai-656ee.firebaseio.com",
+    "project_id": "money-bhai-656ee",
+    "storage_bucket": "money-bhai-656ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505639996920:android:18730cefd8967d0d",
+        "android_client_info": {
+          "package_name": "com.moneybhai.expense_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505639996920-he2cj76eldje20q6hb8asaesoqrkpcks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVhp9qD643DbZwBraAZo-0L8l0k3FsQ5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505639996920-he2cj76eldje20q6hb8asaesoqrkpcks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

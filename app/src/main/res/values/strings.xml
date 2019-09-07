@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Money Bhai</string>
+    <string name="note_dialog">Note: If Today\'s Date is Already added, Don\'t Add Again !</string>
+    <string name="add">Click On + Button to Add</string>
+</resources>
